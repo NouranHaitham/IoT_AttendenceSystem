@@ -53,7 +53,7 @@ The MIT application reads the data from google sheet and dislpays it on the scre
 
 -->The application will display the employees currently in the company (also says if an intruder is inside).  
 
--->The application will display the history log with the basic information of the employees (ID, Name, Age, date, time). 
+-->The application will display the history log with the basic information of the employees (ID, Name, Age, date, time),also you can search for the history of a certain employee through search bar. 
 
 
 #### Components used:
