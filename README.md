@@ -21,7 +21,7 @@ Rosol Magdy Abdelhaleem
 
 ## Description:
   
-This project handles the attendance process for the company Creative (made up) . The Wi-Fi module contained within the RFID scanner is responsible for reading RFID cards and uploading the data to the google sheet,you can also view the attendance information online at any time.
+This project handles the attendance process for the company Creative (made up) . The Wi-Fi module contained within the RFID scanner is responsible for reading RFID cards and uploading the data to google sheet,you can also view the attendance information online at any time.
 
 ### An outline of the project:
 
