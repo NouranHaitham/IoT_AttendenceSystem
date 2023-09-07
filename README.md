@@ -40,7 +40,7 @@ The employee will swip his ID card infront of the RFID sensor then the NodeMCU c
 1.For a Manager or an employee the green leds start lightning one by one until the lcd print the name of the person.
 
 
-2.For a Banned person the red led turns (on and off),a buzzer activates to warn people of an intruder entering,the lcd prints "ALERT! intruder got in!" and emails are sent to all employees to notify them (email contains the ID of the banned person).     
+2.For a Banned person the red led turns (on and off),a buzzer activates to warn people of an intruder entering,the lcd prints "ALERT! intruder got in!" and emails are sent to all employees to notify them (email contains the ID of the banned person) using SMTP protocol.     
 
 
 
