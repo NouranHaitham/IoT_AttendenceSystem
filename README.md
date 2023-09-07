@@ -2,14 +2,22 @@
 
 ## Team members:
 
-Menna Elbarbary 
-Nora ahmed salem 
-Fatma El zahraa Atef Mahmoud 
-Mohamed Mahmoud Abdeltwab Abdelkader Gad 
-Beshoy Akram Alfy shenouda  
-Nouran Haitham Othman 
-Karen Samuel gerges shenouda 
-Rosol Magdy Abdelhaleem 
+Menna Elbarbary
+
+Nora ahmed salem
+
+Fatma El zahraa Atef Mahmoud
+
+Mohamed Mahmoud Abdeltwab Abdelkader Gad
+
+Beshoy Akram Alfy shenouda
+
+Nouran Haitham Othman
+
+Karen Samuel gerges shenouda
+
+Rosol Magdy Abdelhaleem
+
 
 ## Description:
   
