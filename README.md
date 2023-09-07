@@ -47,6 +47,7 @@ The employee will swip his ID card infront of the RFID sensor then the NodeMCU c
 The MIT application reads the data from google sheet and dislpays it on the screen.  
 
 ### Main functionalities of MIT application: (link https://gallery.appinventor.mit.edu/?galleryid=1d3281aa-b03f-4b87-83bc-aff6551f3e31) 
+
   
 -->The manager is the only one allowed to login. 
 
