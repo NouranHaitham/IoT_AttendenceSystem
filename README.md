@@ -35,7 +35,7 @@ The employee will swip his ID card infront of the RFID sensor then the NodeMCU c
 
 
 
-## There are two scenarios: 
+### There are two scenarios: 
 
 1.For a Manager or an employee the green leds start lightning one by one until the lcd print the name of the person.
 
