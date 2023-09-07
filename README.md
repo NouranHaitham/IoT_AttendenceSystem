@@ -30,7 +30,10 @@ The employee will swip his ID card infront of the RFID sensor then the NodeMCU c
 
 -->send the data saved within that ID to Google sheet (Link: https://docs.google.com/spreadsheets/d/1Of4h9LQfTOir4lgUNRSC3x5Ne8-ZmxXV87v4c2R3oTU/edit?usp=sharing)
 
+
 -->send serial messages to ardunio uno through UART communication to do certain commands depending on the person(employee,manager,or a banned person).
+
+
 
 There are two scenarios: 
 
