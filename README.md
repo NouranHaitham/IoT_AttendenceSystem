@@ -49,7 +49,7 @@ The MIT application reads the data from google sheet and dislpays it on the scre
 ### Main functionalities of MIT application: (link https://gallery.appinventor.mit.edu/?galleryid=1d3281aa-b03f-4b87-83bc-aff6551f3e31) 
 
   
--->The manager is the only one allowed to login. 
+-->The manager is the only one allowed to login.  // username: nora  password: 1234
 
 -->The application will display the employees currently in the company (also says if an intruder is inside).  
 
