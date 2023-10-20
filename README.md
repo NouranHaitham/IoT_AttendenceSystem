@@ -21,7 +21,7 @@ Rosol Magdy Abdelhaleem
 
 ## Description:
   
-This project handles the attendance process for the company Creative (made up) . The Wi-Fi module contained within the RFID scanner is responsible for reading RFID cards and uploading the data to google sheet,you can also view the attendance information online at any time.
+The IoT Attendance System Project 2023 is designed to streamline the attendance process for the company Creative by using an RFID scanner with a Wi-Fi module to read RFID cards and upload data to a Google Sheet. The system includes features such as LED lights, a buzzer, and email notifications to alert for banned individuals, while the MIT application provides the manager with login access, real-time employee presence display, and a searchable history log.
 
 ## An outline of the project:
 
