@@ -1,70 +1,49 @@
-# IOT-Attendence-System-Project-2023
+# IoT Attendance System 🌐
 
-## Team members:
+## Description
 
-Menna Elbarbary
+The IoT Attendance System is here to make tracking attendance at Creative a breeze! 🚀 We’ve hooked up an RFID scanner with a Wi-Fi module to read ID cards and send the data straight to a [Google Sheet](https://docs.google.com/spreadsheets/d/1Of4h9LQfTOir4lgUNRSC3x5Ne8-ZmxXV87v4c2R3oTU/edit?usp=sharing). The system features LEDs, a buzzer for alerts, and email notifications for banned individuals. 📧 Plus, there’s an MIT app that lets managers log in, see who’s around in real time, and search through attendance history. 📱
 
-Nora ahmed salem
+## How It Works
 
-Fatma El zahraa Atef Mahmoud
+1. **RFID Scanning**: Employees swipe their ID cards in front of the RFID sensor. 🆔
+   - The NodeMCU uploads the card data to the Google Sheet. 📊
+   - It also sends serial messages to the Arduino Uno to handle different scenarios (employee, manager, or banned). 🛠️
 
-Mohamed Mahmoud Abdeltwab Abdelkader Gad
+2. **LED and Buzzer Alerts**:
+   - **Employees/Managers**: Green LEDs flash one by one until the LCD shows their name. 💚🔆
+   - **Banned Individuals**: Red LED blinks, buzzer sounds, LCD displays "ALERT! Intruder detected!", and an email is sent to all employees with the banned person’s ID. 🚨🔴📧
 
-Beshoy Akram Alfy shenouda
+3. **MIT App**:
+   - Pulls data from the Google Sheet and displays it. 📈
+   - **Login**: Only the manager can log in (Username: `nora`, Password: `1234`). 🔐
+   - **Features**:
+     - Shows who’s in the building and alerts if an intruder is detected. 🏢👀
+     - Displays a history log with details (ID, Name, Age, Date, Time) and lets you search for specific employee records. 📜🔍
 
-Nouran Haitham Othman
+## Components Used
 
-Karen Samuel gerges shenouda
+- LCD I2C 🖥️
+- RFID Sensor 🏷️
+- LEDs 💡
+- Arduino Uno 🎛️
+- NodeMCU ESP8266 🌐
+- Buzzer 🔔
+- Jumper Wires and Resistors 🔧
 
-Rosol Magdy Abdelhaleem
+## Resources
 
+- [MIT Application](https://gallery.appinventor.mit.edu/?galleryid=1d3281aa-b03f-4b87-83bc-aff6551f3e31) 📲
+- **Arduino Code**: Check out the repo 📁
+- **NodeMCU Code**: Check out the repo 📁
+- **Photos and Video**: Also in the repo 📸🎥
 
-## Description:
-  
-The IoT Attendance System Project 2023 is designed to streamline the attendance process for the company Creative by using an RFID scanner with a Wi-Fi module to read RFID cards and upload data to a Google Sheet. The system includes features such as LED lights, a buzzer, and email notifications to alert for banned individuals, while the MIT application provides the manager with login access, real-time employee presence display, and a searchable history log.
+## Installation and Setup
 
-## An outline of the project:
+1. **Hardware Setup**: Connect everything according to the schematics. 🛠️
+2. **Software Configuration**:
+   - Upload the Arduino and NodeMCU code to your boards. 📤
+   - Set up the Google Sheet and SMTP settings as needed. ⚙️
+   - Install the MIT App and log in with the manager credentials. 📲🔑
 
-
-The employee will swip his ID card infront of the RFID sensor then the NodeMCU code will 
-
--->send the data saved within that ID to Google sheet (Link: https://docs.google.com/spreadsheets/d/1Of4h9LQfTOir4lgUNRSC3x5Ne8-ZmxXV87v4c2R3oTU/edit?usp=sharing)
-
-
--->send serial messages to arduino uno through UART communication to do certain commands depending on the person(employee,manager,or a banned person).
-
-
-
-### There are two scenarios: 
-
-1.For a Manager or an employee the green leds start lightning one by one until the lcd print the name of the person.
-
-
-2.For a Banned person the red led turns (on and off),a buzzer activates to warn people of an intruder entering,the lcd prints "ALERT! intruder got in!" and emails are sent to all employees to notify them (email contains the ID of the banned person) using SMTP protocol.     
-
-
-
-The MIT application reads the data from google sheet and dislpays it on the screen.  
-
-### Main functionalities of MIT application: (link https://gallery.appinventor.mit.edu/?galleryid=1d3281aa-b03f-4b87-83bc-aff6551f3e31) 
-
-  
--->The manager is the only one allowed to login.  // username: nora  password: 1234
-
--->The application will display the employees currently in the company (also says if an intruder is inside).  
-
--->The application will display the history log with the basic information of the employees (ID, Name, Age, date, time),also you can search for the history of a certain employee through search bar. 
-
-
-#### Components used:
-
-1.LCD I2C  
-2.RFID sensor  
-3.Leds  
-4.Arduino UNO  
-5.NodeMCU esp8266  
-7.Buzzer  
-6.Jumpers and Resistors  
-
-  
-
+Enjoy managing attendance with style! 🎉
